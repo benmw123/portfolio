@@ -1,0 +1,65 @@
+body {
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.main-nav {
+  position: fixed;
+  background-color: black;
+  width: 100%;
+  overflow: auto;
+}
+
+ul {
+  padding: 0;
+  margin: 0 0 0 150 px;
+  list-style: none;
+}
+
+ul li {
+  display: inline;
+  padding: 15px;
+  font-size: 20px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 300px;
+}
+
+header {
+  padding: 50px;
+}
+
+.about {
+  padding: 5px;
+}
+
+.work {
+  padding: 25px;
+}
+
+.coming-soon {
+  padding: 15px;
+  margin: 25px 125px;
+  color: white;
+  background-color: grey;
+}
+
+.cat {
+  margin: 50px;
+}
+
+.cat img {
+  border-radius: 15%;
+}
+.contact-nav {
+  padding: 5px;
+}
+
+.contact-nav a {
+  padding: 15px;
+}
