@@ -5,6 +5,7 @@ body {
   text-align: center;
 }
 
+/* fixed main navigation so the navigation buttons move with the user as he scrolls */
 .main-nav {
   position: fixed;
   background-color: black;
@@ -12,34 +13,55 @@ body {
   overflow: auto;
 }
 
+/* List styling changed to none for ul to remove bullet points */
 ul {
   padding: 0;
   margin: 0 0 0 150 px;
   list-style: none;
 }
 
+/* changed list items to inline to have it appear horizontally on nav bar */
 ul li {
   display: inline;
   padding: 15px;
   font-size: 20px;
 }
 
+/*removed text-decorations from links for asthetics*/ 
 ul li a {
   text-decoration: none;
   color: white;
   font-weight: 300px;
 }
 
+/* link styling - links transform to uppercase when hovering */
+a:hover {text-transform: uppercase;}
+
 header {
   padding: 50px;
+}
+
+.intro {
+  padding: 30px 0px 15px;
 }
 
 .about {
   padding: 5px;
 }
 
+ol {
+  width: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ol li {
+  text-align: left;
+}
+
+/* changed padding to 35 here so the header and content shows fully when using navigation link, 'my work'*/
 .work {
-  padding: 25px;
+  padding: 35px;
 }
 
 .coming-soon {
@@ -53,7 +75,7 @@ header {
   margin: 50px;
 }
 
-.cat img {
+.pablo {
   border-radius: 15%;
 }
 .contact-nav {
